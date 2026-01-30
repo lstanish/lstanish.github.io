@@ -2,7 +2,6 @@
 layout: page
 title: About
 subtitle: McLake Consulting
-cover-img: /assets/img/intro.jpg
 ---
 
 McLake Consulting is dedicated to guiding your water decisions by leveraging the newest AI and modeling tools with large open data to develop informed predictions.
