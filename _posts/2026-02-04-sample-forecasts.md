@@ -10,7 +10,6 @@ mathjax: true
 author: Ryan McClure, PhD
 ---
 
-{: .box-success}
 This is a demo on how forecast the most important aspect of water... temperature. We will go through an exercise that generates 7-day ahead water temperature forecasts for Grange Creek in Thornton, CO. It is a very small, heavily urbanized, stream that sits just behind my home. My daughter love to play in it after school. 
 I strongly encourage you to [take review all of the code in Github](https://github.com/ryanmclake/grangeCreekTempForecasts).
 
@@ -25,6 +24,18 @@ We know some simple rules of water physics, and I mean let's start really simple
 + In summer, the water temperature is warmer because it is warmer outside because the air temperature is warmer and we get more sunlight. 
 
 With this very simple thought experiment. We can infer that the temperature in our stream may depend on the temperature of the air.
+
+**First, we need some initial data**
+I went ahead and took an old HOBO data logger that I have from my PhD and secured it in my creek. 
+
+The logger was set to record temperature at 15-minute intervals in GMT. It was deployed in the afternoon of January 21st. 
+
+I let the sensor collect temperature data for 10 days before my first data download on Feburary 1st. 
+
+Here is a time series (aggregated to the hour) of the water temperature in Grange Creek behind the house.
+
+[1769979600_Observed_temps]({{ '/1769979600_Observed_temps' | relative_url }})
+
 
 **Let's forecast water temperature using air temperature and see**
 
