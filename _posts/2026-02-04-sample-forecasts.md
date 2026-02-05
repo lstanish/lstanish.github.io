@@ -13,7 +13,7 @@ author: Ryan McClure, PhD
 This is a demo on how forecast the most important aspect of water... temperature. We will go through an exercise that generates 7-day ahead water temperature forecasts for Grange Creek in Thornton, CO. It is a very small, heavily urbanized, stream that sits just behind my home. My daughter love to play in it after school. 
 I strongly encourage you to [take review all of the code in Github](https://github.com/ryanmclake/grangeCreekTempForecasts).
 
-**So how does a forecasting workflow work?**
+#So how does a forecasting workflow work?
 
 ## Let's start with what we know
 
@@ -23,20 +23,30 @@ We know some simple rules of water physics, and I mean let's start really simple
 + My home in Denver, CO USA has seasons (summer, fall, winter, and spring). In winter, the water temperature is colder because the air temperature is cold and we get less sun. 
 + In summer, the water temperature is warmer because it is warmer outside because the air temperature is warmer and we get more sunlight. 
 
-With this very simple thought experiment. We can infer that the temperature in our stream may depend on the temperature of the air.
+We can generate forecasts with information from these four bullets. 
 
-**First, we need some initial data**
-I went ahead and took an old HOBO data logger that I have from my PhD and secured it in my creek. 
+##First, we need some initial data
+
+I went ahead and used an old HOBO data logger that I have from my PhD and secured it in my creek. 
 
 The logger was set to record temperature at 15-minute intervals in GMT. It was deployed in the afternoon of January 21st. 
 
-I let the sensor collect temperature data for 10 days before my first data download on Feburary 1st. 
+I let the sensor collect temperature data for 10 days before my first data download on Feburary 1st, 2026. 
 
 Here is a time series (aggregated to the hour) of the water temperature in Grange Creek behind the house.
 
 ![]({{ '/assets/img/1769979600_Observed_temps.png' | relative_url }})
 
-**Let's forecast water temperature using air temperature and see**
+From this figure, we can see that there is a strong daily cycle in water temperature. Water temperature starts to warm up when the sun is out, reaching a high temperature in the evening after the sun has gone down (there is that high specific heat). The temperature then cools down from midnight into the next morning and then is really cold in the AM the next day.
+
+What else has a cycle like this? Well, the temperature of the air and the amount of sunlight that is coming in and hitting the stream (incoming solar radiation). 
+
+Let's try to generate some forecasts of Grange Creek's water temperature with three models:
++ One model that predicts water temperature based on air temp
++ One model that predicts water temperature based on the amount of incoming solar radiation
++ One model that predicts water temperature based on temperature and incoming solar radiation
+
+When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
 
 
