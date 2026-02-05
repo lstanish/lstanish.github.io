@@ -34,8 +34,7 @@ I let the sensor collect temperature data for 10 days before my first data downl
 
 Here is a time series (aggregated to the hour) of the water temperature in Grange Creek behind the house.
 
-[1769979600_Observed_temps]({{ '/1769979600_Observed_temps' | relative_url }})
-
+![]({{ '/assets/img/1769979600_Observed_temps.png' | relative_url }})
 
 **Let's forecast water temperature using air temperature and see**
 
