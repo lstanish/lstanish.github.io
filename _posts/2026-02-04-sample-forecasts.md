@@ -63,7 +63,25 @@ Here are all of the distributions of the parameter outputs from our DLM:
 ![]({{ '/assets/img/Posterior_1.png' | relative_url }})
 ![]({{ '/assets/img/Posterior_2.png' | relative_url }})
 
+Ok - there is a lot to digest above. To keep it simple, the left columns, are the results of a Markov-chain Monte-carlo to predict the distribution of our parameters we're interested in. You can see that there are parameters associated with some common variables we've discussed (e.g., sun (betasun) and temperature (betatemp)). The other parameters are aspects of the DLM that will go into our forecast. 
 
+Now that we have our posterior distributions from a calibrated model, let's transition to actual forecasts. In order to get a forecast of future water temperatures in Grange Creek, we need to have actual forecast data of air temperature and incoming solar radiation. Where do we get that? 
+
+Sadly, not your phone or your weather station. Rather, we can use the same raw source that weather apps use and charge you for (which is bogus in my opinion).
+
+I like to use the [Open Meteo API](https://open-meteo.com/). It is a website where you can basically download all available weather forecasts from all operational forecast models that are openly available. It is really cool. 
+
+To iteratively get the forecasts, I have leveraged the site's feature that outputs Python scripts one can use to download the forecasts and save them onto your local computer. 
+
+So, our DLM ended exactly at 2026-02-01 00:00:00 (GMT). Thus, I downloaded weather forecasts of air temperature 2 meters above the ground and incoming solar radiation for the 0.25° grid that the Grange Creek water temperature is being measured that also started at 2026-02-01 00:00:00 (GMT).
+
+Here are those forecasts. The go 7 days at an hourly time step into the future. 
+
+Air temperature forecast
+![]({{ '/assets/img/2026-02-01_MET_forecasts_TEMP.png' | relative_url }})
+
+Solar radiation forecast
+![]({{ '/assets/img/2026-02-01_MET_forecasts_SUN.png' | relative_url }})
 
 
 
