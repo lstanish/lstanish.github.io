@@ -41,12 +41,22 @@ From this figure, we can see that there is a strong daily cycle in water tempera
 
 What else has a cycle like this? Well, the temperature of the air and the amount of sunlight that is coming in and hitting the stream (incoming solar radiation). 
 
-Let's try to generate some forecasts of Grange Creek's water temperature with three models:
-+ One model that predicts water temperature based on air temp
-+ One model that predicts water temperature based on the amount of incoming solar radiation
-+ One model that predicts water temperature based on temperature and incoming solar radiation
+Let's try to generate some forecasts of Grange Creek's water temperature based on the air temperature and the amount of incoming sunlight.
 
-When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+Deriving a prediction from another variable(s) through an equation is what we call a model. A model is a representation of reality. The model that we are using in this exercise is called a dynamic linear model (DLM). A DLM is useful particularly for short-term forecasting, which we are doing here. 
+
+DLM's usually rely on Bayes theorem. To avoid the weeds of Bayes, simply put, we will use the DLM to obtain a new distribution of our model's parameters given all the information we have available up to out current state (i.e., now). 
+
+So what information do we have? We have temperature of the water, we have temperature of the air, and we have the incoming solar radiation. 
+
+Thus, we can use all of this information to derive a distribution of our parameter estimates of our model given the information we have. 
+
+Let's fit our model to the data. 
+
+![]({{ '/assets/img/2026-02-01_DLM_output.png' | relative_url }})
+
+We can see here that our DLM fits onto the observed temps very well. The light blue shade is the 95% credible interval of the model's prediction. The red points are the hourly water temperature observations. WE also see that the model ends but there are still a few observations. I have purposefully down this so we can compare how our forecast does against actual observed data. 
+
 
 
 
