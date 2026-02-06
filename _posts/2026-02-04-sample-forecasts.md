@@ -55,7 +55,14 @@ Let's fit our model to the data.
 
 ![]({{ '/assets/img/2026-02-01_DLM_output.png' | relative_url }})
 
-We can see here that our DLM fits onto the observed temps very well. The light blue shade is the 95% credible interval of the model's prediction. The red points are the hourly water temperature observations. WE also see that the model ends but there are still a few observations. I have purposefully down this so we can compare how our forecast does against actual observed data. 
+We can see here that our DLM fits onto the observed temps very well. The light blue shade is the 95% credible interval of the model's prediction. The red points are the hourly water temperature observations. We also see that the model ends but there are still a few observations. I have purposefully down this so we can compare how our forecast does against actual observed data. 
+
+What we are interested in, however, is the distribution of our parameters for our model given all of the information we have. 
+
+Here are all of the distributions of the parameter outputs from our DLM:
+![]({{ '/assets/img/Posterior_1.png' | relative_url }})
+![]({{ '/assets/img/Posterior_2.png' | relative_url }})
+
 
 
 
