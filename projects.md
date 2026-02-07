@@ -4,6 +4,6 @@ title: Services and Projects
 subtitle: McLake Consulting
 ---
 
-Here is a list of our current projects
+Check back soon for a list of our current projects. 
 
-### Our story
+Interested in starting up a project with McLake? Please refer to our [CONTACT](https://ryanmclake.github.io/mclakeconsulting.github.io/contact/) page to get started. 

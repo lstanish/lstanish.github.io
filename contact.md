@@ -3,7 +3,8 @@ layout: page
 title: Contact 
 subtitle: McLake Consulting
 ---
+### Let's work together
 
-Want to work with me - get in touch here
+Fun, cutting-edge, novel, and more. McLake is excited to start up any water quality or resource project. 
 
-### Our story
+Please reach out via [EMAIL](mailto:[ryan333@vt.edu]) to get started.
