@@ -11,6 +11,9 @@ tags: test
 comments: true
 mathjax: true
 layout: post
+cover-img: /assets/img/ecoforecastingloop.jpg
+thumbnail-img: /assets/img/ecoforecastingloop.jpg
+share-img: /assets/img/ecoforecastingloop.jpg
 ---
 
 This is a demo on how to forecast the most important aspect of water... temperature. This blog is an exercise that generates 7-day ahead water temperature forecasts for Grange Creek in Thornton, CO. Grange Creek is a very small, heavily urbanized, waterway that sits just behind my home. 
