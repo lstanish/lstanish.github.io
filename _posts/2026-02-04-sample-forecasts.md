@@ -11,7 +11,7 @@ tags: test
 comments: true
 mathjax: true
 layout: post
-cover-img: /assets/img/ecoforecastingloop.jpg
+cover-img: /assets/img/fcr_3.jpg
 thumbnail-img: /assets/img/ecoforecastingloop.jpg
 share-img: /assets/img/ecoforecastingloop.jpg
 ---
