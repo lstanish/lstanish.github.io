@@ -45,6 +45,17 @@ What are some of the patterns you see?
 
 Let's start with the temperature coefficient. The mean does not seem to change much but it is quite apparent that each sequential density plot increases in variance, meaning we are less and less confident in temperature as a predictor as we get more data. Interesting! 
 
+For incoming Solar Radiation, it seems that variance of our distribution seems to remain constant, but the mean is increasing. This implies that sun is a viable predictor and is increasing in importance as we get more data. Also interesting
+
+The Lag Temperature coefficient has a similar pattern to the sun, which is great! 
+
+The Intercept seems to mirror the temperature coefficient. It is increasing in variance as we get in more data. This means we have less confidence when we are making forecasts... 
+
+That is basically bulk data assimilation. So, the next time I go out and download the HOBO temperature data from Grange Creek, we will be able to see how the distributions of the coefficients has changed again. 
+
+It is worth going through a forecast cycle a few times to really learn exactly how the model may need to be updated or changed. So, let's go ahead and make a new forecast with the distributions from Feb 10th and see how these new forecasts look. Follow to the next post to see the forecast! 
+
+
 
 
 
