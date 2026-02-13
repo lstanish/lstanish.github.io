@@ -1,7 +1,7 @@
 ---
-title: "Data Assimilation"
+title: "Data assimilation"
 author: "Ryan McClure, PhD"
-subtitle: Does not have to be as complicated as you think
+subtitle: All forecasts need data assimilation
 gh-repo: ryanmclake/grangeCreekTempForecasts
 gh-badge:
 - star
@@ -19,11 +19,13 @@ share-img: /assets/img/ecoforecastingloop.jpg
 
 ### Let's do some bulk data assimilation
 
-It is important to note that data assimilation (DA) is an entire discipline that folks litterally dedicate their entire careers to. Simply put, DA is a tool to update a model with new information before making a new prediction. The best example of this that folks hear about is a Kalman Filter. This was the method used to steer the Saturn V rockets for the moon missions. 
+All forecasts need data assimilation, else it is not a forecast! Remember, forecasts are iterative. 
 
-We are not implementing a Kalman filter in this simple exercise. Check back soon for that post. Here, we are going to do a simple method called bulk data assimilation. In other words, when new data are available we rerun the entire Bayes Dynamic Linear Model (BDLM) with the new data, then use the newest posteriors to generate our forecast. This appraoch is more computationally intensive than other methods, but it is a great way to show how much the coefficients in our models shift through time and increase or decrease in variance. 
+It is important to note that data assimilation (DA) is an entire discipline that folks literally dedicate their entire careers to. Simply put, DA is a tool to update a model with new information before making a new prediction. The best example of this that folks hear about is a Kalman Filter. This was the method used to steer the Saturn V rockets for the moon missions. 
 
-Our BDLM has four key coefficients that go into making our predictions, the coefficient for the incoming solar radiation, for the temperature, for our autoregressive temperaute (temperature the prior hour), and our intercept. When we generated our first forecast on Feb 1st, each of these coefficients had a distribution of possible values based on our BDLM calibration. We randomly drew from these distributions and made the forecast. 
+We are not implementing a Kalman filter in this simple exercise. Check back soon for that post. Here, we are going to do a simple method called bulk data assimilation. In other words, when new data are available we rerun the entire Bayes Dynamic Linear Model (BDLM) with the new data, then use the newest posteriors to generate our forecast. This approach is more computationally intensive than other methods, but it is a great way to show how much the coefficients in our models shift through time and increase or decrease in variance. 
+
+Our BDLM has four key coefficients that go into making our predictions, the coefficient for the incoming solar radiation, for the temperature, for our auto-regressive temperature (temperature the prior hour), and our intercept. When we generated our first forecast on Feb 1st, each of these coefficients had a distribution of possible values based on our BDLM calibration. We randomly drew from these distributions and made the forecast. 
 
 However, we also know that our forecast did not do that great when we compared the mean of the forecasts against the observations. As such, this might imply that our coefficients were not that helpful. What we will see now is how the coefficient distributions change daily with new incoming data from our most recent HOBO download. 
 
@@ -45,7 +47,7 @@ What are some of the patterns you see?
 
 Let's start with the temperature coefficient. The mean does not seem to change much but it is quite apparent that each sequential density plot increases in variance, meaning we are less and less confident in temperature as a predictor as we get more data. Interesting! 
 
-For incoming Solar Radiation, it seems that variance of our distribution seems to remain constant, but the mean is increasing. This implies that sun is a viable predictor and is increasing in importance as we get more data. Also interesting
+For incoming Solar Radiation, it seems that variance of our distribution seems to remain constant, but the mean is increasing. This implies that sun is a viable predictor and is increasing in importance as we get more data. Also interesting.
 
 The Lag Temperature coefficient has a similar pattern to the sun, which is great! 
 

@@ -1,5 +1,5 @@
 ---
-title: "Forecast Evaluation"
+title: "Forecast evaluation"
 author: "Ryan McClure, PhD"
 subtitle: How did our water temperature forecasts do?
 gh-repo: ryanmclake/grangeCreekTempForecasts
