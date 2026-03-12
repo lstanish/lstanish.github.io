@@ -1,11 +1,13 @@
 ---
 layout: page
 title: About
-subtitle: McLake Consulting
+subtitle: Lee Stanish, LLC
 ---
-### About Ryan, the owner and priciple scientist
+### Hello, I'm Lee
 
-Ryan received his PhD in Biological Sciences from Virginia Tech in 2020. His thesis investigated how oxygenation systems installed in drinking water reservoirs affected the greenhouse gas production and fluxes. His postdoctoral work started to help develop and test forecasts of lake and reservoir temperature and other parameters. He then explored how lake water quantity was changing at global scales with the Global Lake Climate and Population data set. 
+I am an ecologist, microbiologist, water quality specialist, and data scientist. I love to apply my knowledge, skills and interests to tackle real-world issues and maintain our natural resources.
+
+I earned a PhD at the University of Colorado Boulder where I focused on microbial adaptations in polar environments. I earned a love of diatoms and other algae and their importance as primary producers. I continued exploring microbes and ecology as a postdoctoral researcher leading projects on algal biofuels and drinking water microbiology. My first 'real' job was as the Microbial Ecologist at the National Ecological Observatory Network (NEON), where I managed the soil microbial monitoring program from sample collection to data dissemination. It is here that I honed my data science skills and learned data management practices. I particularly enjoyed training field staff on how to collect high quality samples. I then moved to the USGS Water Mission Area and became a Product Owner helping to modernize aging tech infrastructure and improve public access to critical water data. Here, I also helped develop methods to understand how emerging contaminants such as PFAS are taken up and transformed by aquatic microbes.
 
 ![]({{ '/assets/img/intro.jpg' | relative_url }})
 
