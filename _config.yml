@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: McLake Consulting
+title: Lee Stanish, LLC
 
 # Your name to show in the footer
-author: Ryan McClure, PhD
+author: Lee F Stanish, PhD
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -51,32 +51,24 @@ title-img: "/assets/img/logo_mclake.png"
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "ryan333@vt.edu"
+  email: "stanis@colorado.edu"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  github: "https://github.com/ryanmclake/"
+  github: "https://github.com/lstanish/"
 #  twitter: daattali
-#  youtube: "@daattali"
 #  medium: yourname
-#  reddit: yourname or r/yoursubreddit
 #  linkedin: 
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
 #  instagram: deanat78
 #  spotify: yourname
-#  telephone: +14065816925
+#  telephone: +13035555555
 #  steam: deanat78
-#  twitch: yourname
 #  yelp: yourname
 #  telegram: yourname
 #  calendly: yourname
-#  mastodon: instance.url/@username
 #  bluesky: yourname
   ORCID: 0000-0001-6370-3852
   google-scholar: "https://scholar.google.com/citations?user=kGxsHkIAAAAJ&hl=en"
-#  discord: "invite_code" or "users/userid" or "invite/invite_code"
-#  kaggle: yourname
-#  hackerrank: yourname
 #  gitlab: yourname
 #  itchio: yourname
 #  untappd: yourname
@@ -84,7 +76,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: McLake Consulting Projects
+rss-description: Lee Stanish, LLC Projects
 
 ###########################
 # --- General options --- #
@@ -100,7 +92,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "mclakeconsulting.com"
+url-pretty: "leestanishllc.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
