@@ -22,6 +22,7 @@ author: Lee F Stanish, PhD
 navbar-links:
   About : "aboutme"
   Services and Projects : "projects"
+  Publications : "pubs"
   Contact : "contact"
   
   Resources:
@@ -67,8 +68,8 @@ social-network-links:
 #  telegram: yourname
 #  calendly: yourname
 #  bluesky: yourname
-  ORCID: 0000-0001-6370-3852
-  google-scholar: "https://scholar.google.com/citations?user=kGxsHkIAAAAJ&hl=en"
+  ORCID: 0000-0002-9775-6861
+  google-scholar: "https://scholar.google.com/citations?user=NhevYlsAAAAJ&hl=en"
 #  gitlab: yourname
 #  itchio: yourname
 #  untappd: yourname
