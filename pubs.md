@@ -14,41 +14,30 @@ title: Publications
 <div class="year-section" id="year-2025">
   <div class="year-header">
     <h2 class="year-title">2025</h2>
-    <div class="year-count">4 publications</div>
+    <div class="year-count">2 publications</div>
   </div>
 
   <div class="publications-list">
 
     <div class="publication-item">
-      <h3 class="paper-title">Can Speech LLMs think while listening?</h3>
+      <h3 class="paper-title">First island-wide, single-day soil collection study on Crete reveals environmental drivers of microbial diversity</h3>
       <div class="authors">
-        <span class="author-name">Ian Shih</span>,
-        <span class="author-name author-me">Desh Raj</span>,
-        <span class="author-name">Chunyang Wu</span>,
-        <span class="author-name">Wei Zhou</span>,
-        <span class="author-name">SK Bong</span>,
-        <span class="author-name">Yashesh Gaur</span>,
-        <span class="author-name">Jay Mahadeokar</span>,
-        <span class="author-name">Ozlem Kalinli</span>,
-        <span class="author-name">Mike Seltzer</span>
+        <span class="author-name">JB Holm</span>,
+        <span class="author-name">et al.</span>
       </div>
-      <!-- <div class="venue">Submitted to ICLR 2026</div> -->
+      <!-- <div class="venue">Environmental Microbiome</div> -->
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2510.07497" class="paper-link arxiv">Paper</a>
-        <a href="/static/ppt/moshi_cot.pdf" class="paper-link slides">Slides</a>
       </div>
     </div>
 
     <div class="publication-item">
-      <h3 class="paper-title">Faster Speech-LLaMA inference with multi-token prediction</h3>
+      <h3 class="paper-title">A global database of soil microbial phospholipid fatty acids and enzyme activities</h3>
       <div class="authors">
-        <span class="author-name author-me">Desh Raj</span>,
-        <span class="author-name">Gil Keren</span>,
-        <span class="author-name">Junteng Jia</span>,
-        <span class="author-name">Jay Mahadeokar</span>,
-        <span class="author-name">Ozlem Kalinli</span>
+        <span class="author-name">LG van Galen</span>,
+        <span class="author-name">et al.</span>
       </div>
-      <div class="venue">IEEE ICASSP 2025</div>
+      <div class="venue">Scientific Data</div>
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2409.08148" class="paper-link arxiv">Paper</a>
       </div>
@@ -95,6 +84,4 @@ title: Publications
       </div>
     </div>
   </div>
-</div>
-
 </div>
