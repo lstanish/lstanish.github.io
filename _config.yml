@@ -21,13 +21,10 @@ author: Lee F Stanish, PhD
 
 navbar-links:
   About : "aboutme"
-  Services and Projects : "projects"
+  Projects : "projects"
   Publications : "pubs"
   Contact : "contact"
   
-  Resources:
-    - GLM AED: "https://github.com/AquaticEcoDynamics/glm-aed"
-
 ################
 # --- Logo --- #
 ################
