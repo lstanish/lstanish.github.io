@@ -117,7 +117,7 @@ title: Publications
   <div class="publications-list">
 
     <div class="publication-item">
-      <h3 class="paper-title">Multipledimensionsofresilience: How NEON supports ecology and the research community in the face of compounding disasters</h3>
+      <h3 class="paper-title">Multiple dimensions of resilience: How NEON supports ecology and the research community in the face of compounding disasters</h3>
       <div class="authors">
         <span class="author-name">NR Robinson</span>,
         <span class="author-name">DT Barnett</span>,
@@ -135,7 +135,7 @@ title: Publications
 <div class="year-section" id="year-2021">
   <div class="year-header">
     <h2 class="year-title">2021</h2>
-    <div class="year-count">2 publications</div>
+    <div class="year-count">3 publications</div>
   </div>
 
   <div class="publications-list">
@@ -399,6 +399,200 @@ title: Publications
       </div>
     </div>
 
+
+<div class="year-section" id="year-2014">
+  <div class="year-header">
+    <h2 class="year-title">2014</h2>
+    <div class="year-count">1 publication</div>
+  </div>
+
+  <div class="publications-list">
+
+    <div class="publication-item">
+      <h3 class="paper-title">Diel flow pulses drive particulate organic matter transport from microbial mats in a glacial meltwater stream in the McMurdo Dry Valleys</h3>
+      <div class="authors">
+        <span class="author-name">JDS Cullis</span>,
+        <span class="author-name author-me">Lee F Stanish</span>,
+        <span class="author-name">DM McKnight</span>
+      </div>
+      <div class="venue">Water Resources Research</div>
+      <div class="paper-links">
+        <a href="https://doi.org/10.1002/2013WR014061" class="paper-link ieee">Paper</a>
+      </div>
+    </div>
+
+
+<div class="year-section" id="year-2013">
+  <div class="year-header">
+    <h2 class="year-title">2013</h2>
+    <div class="year-count">5 publications</div>
+  </div>
+
+  <div class="publications-list">
+
+    <div class="publication-item">
+      <h3 class="paper-title">Biocommodities from photosynthetic microorganisms</h3>
+      <div class="authors">
+        <span class="author-name">VH Work</span>,
+        <span class="author-name">et al.</span>
+      </div>
+      <div class="venue">Environmental Progress & Sustainable Energy</div>
+      <div class="paper-links">
+        <a href="https://doi.org/10.1002/ep.11849" class="paper-link ieee">Paper</a>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <h3 class="paper-title">Environmental factors influencing diatom communities in Antarctic cryoconite holes</h3>
+      <div class="authors">
+        <span class="author-name author-me">Lee F Stanish</span>,
+        <span class="author-name">EA Bagshaw</span>,
+        <span class="author-name">DM McKnight</span>,
+        <span class="author-name">AG Fountain</span>,
+        <span class="author-name">M Tranter</span>,
+      </div>
+      <div class="venue">Environmental Research Letters</div>
+      <div class="paper-links">
+        <a href="https://doi.org/10.1088/1748-9326/8/4/045006" class="paper-link ieee">Paper</a>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <h3 class="paper-title">Microbial community assembly: patterns and processes</h3>
+      <div class="authors">
+        <span class="author-name">DR Nemergut</span>,
+        <span class="author-name">et al.</span>
+      </div>
+      <div class="venue">Microbiology and Molecular Biology Reviews</div>
+      <div class="paper-links">
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3811611/pdf/zmr342.pdf" class="paper-link ieee">Paper</a>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <h3 class="paper-title">Spotlight: Diatom ecology and microbial mat structure and function in Antarctic dry valleys</h3>
+      <div class="authors">
+        <span class="author-name author-me">Lee F Stanish</span>,
+        <span class="author-name">JR Spear</span>
+      </div>
+      <div class="venue">Palaios</div>
+      <div class="paper-links">
+        <a href="https://doi.org/10.2110/palo.2013.SO3" class="paper-link ieee">Paper</a>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <h3 class="paper-title">Diatom and bacterial co-occurrence patterns in algal mats from glacial meltwater streams in the McMurdo Dry Valleys, Antarctica</h3>
+      <div class="authors">
+        <span class="author-name author-me">Lee F Stanish</span>,
+        <span class="author-name">et al.</span>
+      </div>
+      <div class="venue">Environmental Microbiology</div>
+      <div class="paper-links">
+        <a href="https://doi.org/10.1111/j.1462-2920.2012.02872.x" class="paper-link ieee">Paper</a>
+      </div>
+    </div>
+
+
+<div class="year-section" id="year-2012">
+  <div class="year-header">
+    <h2 class="year-title">2012</h2>
+    <div class="year-count">1 publication</div>
+  </div>
+
+  <div class="publications-list">
+
+    <div class="publication-item">
+      <h3 class="paper-title">Extreme Streams: Flow intermittency as a control on diatom communities in meltwater streams in the McMurdo Dry Valleys, Antarctica</h3>
+      <div class="authors">
+        <span class="author-name author-me">Lee F Stanish</span>,
+        <span class="author-name">et al.</span>
+      </div>
+      <div class="venue">Canadian Journal of Fisheries and Aquatic Sciences</div>
+      <div class="paper-links">
+        <a href="https://doi.org/10.1139/f2012-022" class="paper-link ieee">Paper</a>
+      </div>
+    </div>
+
+
+<div class="year-section" id="year-2011">
+  <div class="year-header">
+    <h2 class="year-title">2011</h2>
+    <div class="year-count">3 publications</div>
+  </div>
+
+  <div class="publications-list">
+
+    <div class="publication-item">
+      <h3 class="paper-title">Hydrologic processes influence diatom community composition in Dry Valley streams</h3>
+      <div class="authors">
+        <span class="author-name author-me">Lee F Stanish</span>,
+        <span class="author-name">DR Nemergut</span>,
+        <span class="author-name">DM McKnight</span>
+      </div>
+      <div class="venue">Journal of the North American Benthological Society</div>
+      <div class="paper-links">
+        <a href="https://doi.org/10.1899/11-008.1" class="paper-link ieee">Paper</a>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <h3 class="paper-title">Dissertation: Ecological controls on stream diatom communities in the McMurdo Dry Valleys, Antarctica</h3>
+      <div class="authors">
+        <span class="author-name author-me">Lee F Stanish</span>
+      </div>
+      <div class="venue">University of Colorado at Boulder</div>
+      <div class="paper-links">
+        <a href="https://www.proquest.com/openview/60f17acdbc7c86594b357c2511117d3c/1?pq-origsite=gscholar&cbl=18750" class="paper-link ieee">Paper</a>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <h3 class="paper-title">Global patterns in the biogeography of bacterial taxa</h3>
+      <div class="authors">
+        <span class="author-name">DR Nemergut</span>,
+        <span class="author-name">et al.</span>
+      </div>
+      <div class="venue">Environmental Microbiology</div>
+      <div class="paper-links">
+        <a href="https://doi.org/10.1111/j.1462-2920.2010.02315.x" class="paper-link ieee">Paper</a>
+      </div>
+    </div>
+
+
+<div class="year-section" id="year-2010">
+  <div class="year-header">
+    <h2 class="year-title">2010</h2>
+    <div class="year-count">2 publications</div>
+  </div>
+
+  <div class="publications-list">
+
+    <div class="publication-item">
+      <h3 class="paper-title">Diatoms as indicators of environmental change in Antarctic and subantarctic freshwaters</h3>
+      <div class="authors">
+        <span class="author-name">SA Spaulding</span>,
+        <span class="author-name">et al.</span>
+      </div>
+      <div class="venue">The diatoms: applications for the environmental and earth sciences</div>
+      <div class="paper-links">
+        <a href="https://d1wqtxts1xzle7.cloudfront.net/96015812/11ed0bbd10f092038e2d33e6046c544c1180-libre.pdf?1671439734=&response-content-disposition=inline%3B+filename%3DDiatoms_as_indicators_of_environmental_c.pdf&Expires=1775144334&Signature=bNoZ127E3j3IzPEYNt-foOG6HzYayRCqyRFvGFHnrFKzwnh1KSV5079bzyxajZ0Kr~LzyAMMx9OssvpSHCBiar3Nc-MQvCTSZy2oBv4Ntah5WyRv7vOEZD9U6KGEK-7vEYaPgw9avQFpHrtByr9Jbx3NUHuKVklw1GSU7hQwSg7wKWWKabs~hUTbTvn3TcxhLfTYSmBvN5~lEv~HJWAp6e8QSPZ-0lmuQUTER-0KBOsPYspzYVIdkTMyTPD5cBvr-965dAjr3Vf5uqtL43KYGJz-hdrq8H-yY2DN-Rl~ldLcH9cIB50KRECcZ88yen97W7BDHFCrvom2a58~-QwVKA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" class="paper-link ieee">Book Chapter</a>
+      </div>
+    </div>
+    
+    <div class="publication-item">
+      <h3 class="paper-title">New and interesting species of the genus Muelleria (Bacillariophyta) from the Antarctic region and South Africa</h3>
+      <div class="authors">
+        <span class="author-name">B Van de Vijver</span>,
+        <span class="author-name">G Mataloni</span>,
+        <span class="author-name author-me">Lee F Stanish</span>,
+        <span class="author-name">SA Spaulding</span>
+      </div>
+      <div class="venue">Phycologia</div>
+      <div class="paper-links">
+        <a href="https://doi.org/10.2216/09-27.1" class="paper-link ieee">Paper</a>
+      </div>
+    </div>
 
   </div>
 </div>
