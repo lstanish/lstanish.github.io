@@ -281,7 +281,7 @@ title: Publications
     <div class="publication-item">
       <h3 class="paper-title">Thermal autecology describes the occurrence patterns of four benthic diatoms in McMurdo Dry Valley streams</h3>
       <div class="authors">
-        <span class="author-name">JP Darline</span>,
+        <span class="author-name">JP Darling</span>,
         <span class="author-name">DD Garland</span>,
         <span class="author-name author-me">Lee F Stanish</span>,
         <span class="author-name">RM Esposito</span>,
